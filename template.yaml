@@ -7,4 +7,3 @@ Resources:
     Properties:
       Handler: gitHandler.py
       Runtime: python3.6.5
-      CodeUri: "./"
