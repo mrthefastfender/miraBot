@@ -1,0 +1,13 @@
+---
+version: 0
+phases:
+  install:
+    commands:
+    - pip install -r requirements.txt -t ./
+  post_build:
+    commands:
+      - zip mirabot.zip ./src
+artifacts:
+  type:
+    files:
+    - miraBot.zip
