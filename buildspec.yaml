@@ -10,5 +10,5 @@ phases:
 artifacts:
     files:
     - src/gitHandler.py
-    - configuration.json
-    - template.json
+    - configuration.yaml
+    - template.yaml
