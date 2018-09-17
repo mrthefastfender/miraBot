@@ -11,3 +11,4 @@ artifacts:
     files:
     - src/gitHandler.py
     - configuration.json
+    - template.json
