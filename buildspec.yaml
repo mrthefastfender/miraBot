@@ -8,7 +8,5 @@ phases:
     commands:
       - aws cloudformation package --template template.yaml --s3-bucket mirabot-development
 artifacts:
-  type:
     files:
     - gitHandler.py
-    - template.json
