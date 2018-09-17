@@ -10,4 +10,4 @@ phases:
 artifacts:
   type:
     files:
-    - ./miraBot.zip
+    - gitHandler.py
