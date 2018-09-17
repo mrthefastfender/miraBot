@@ -4,6 +4,9 @@ phases:
   install:
     commands:
     - pip install -r requirements.txt -t ./
+  post_build:
+    commands:
+      - aws cloudformation package --template template.yaml --s3-bucket maribot-development
 artifacts:
   type:
     files:
